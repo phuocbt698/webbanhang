@@ -1,0 +1,76 @@
+.content-order .list-order{ 
+    width: 100%;
+    margin: 5% 0;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    border: solid 1px tomato;
+}
+
+.list-order .order{
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 6px;
+    border-bottom: solid 1px red;
+    margin: 2%;
+}
+
+.order .date-order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 97%;
+    justify-content: space-between;
+}
+
+.date-order .order_title{
+    border-bottom: solid 2px black;
+}
+
+.order .order-info-product{
+    width: 94%;
+    margin: 2% 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.order .order-info-product img{
+    width: 20%;
+    height: 100%;
+}
+
+.order .order-info-product .para-product{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.order .order-info-product .para-product .product-name{
+    width: 30%;
+}
+
+.order .order-info-product .para-product .product-name > span{
+    width: 100%;
+    color: red;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 15%;
+}
+
+.order .order-info-product .para-product .price_order > span{
+    display: block;
+    margin-bottom: 5%;
+}
+
+.order-info-product .para-product .total-price{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        color: red;
+}

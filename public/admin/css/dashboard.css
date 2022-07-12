@@ -1,0 +1,85 @@
+.header-dashboard{
+    height: 185px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.header-dashboard .quick-info{
+    border: solid 2px;
+    width: 30%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quick-info i{
+    font-size: 65px;
+    opacity: 0.5;
+}
+
+.quick-info .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content h2{
+    margin-bottom: 10%;
+}
+
+.content span{
+    font-size: 25px;
+}
+
+.new-order{
+    background-color: #5653f1;
+}
+
+.unique-visitors{
+    background-color: #91b8ff;
+}
+
+.user-new{
+    background-color: #be67ff;
+}
+
+.chart-data {
+    width: 100%;
+}
+
+.chart-data .select-chart{
+    margin: 2% 0;
+}
+
+.select-chart .form-chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-chart .input-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+}
+
+.form-chart .input-data .date-from{
+    margin-right: 10%;
+}
+
+.chart-data .content-chart{
+    width: 100%;
+    display: block;
+}
+
+#chart{
+    width: 100%;
+}
